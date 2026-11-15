@@ -1,0 +1,6 @@
+{
+  "name": "Decant — Colour Sort",
+  "description": "An offline minimalist colour sort bottle puzzle game with an introductory practice level, intuitive touch controls, and increasingly mixed easy, hard, and extreme levels.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

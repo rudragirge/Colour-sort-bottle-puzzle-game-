@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" fill="none">
+  <rect width="512" height="512" rx="112" fill="#F5F4F0" />
+  <g transform="translate(156, 86)">
+    <!-- Bottle body -->
+    <path
+      d="M44 0 H156 A12 12 0 0 1 168 12 V22 A12 12 0 0 1 156 34 H146 V82 L176 118 A28 28 0 0 1 182 136 V300 A40 40 0 0 1 142 340 H58 A40 40 0 0 1 18 300 V136 A28 28 0 0 1 24 118 L54 82 V34 H44 A12 12 0 0 1 32 22 V12 A12 12 0 0 1 44 0 Z"
+      fill="#FFFFFF"
+      stroke="#1A1917"
+      stroke-width="14"
+      stroke-linejoin="round"
+    />
+    <!-- Liquid layers inside -->
+    <clipPath id="vialClip">
+      <path d="M30 138 L58 104 H142 L170 138 V298 A28 28 0 0 1 142 326 H58 A28 28 0 0 1 30 298 Z" />
+    </clipPath>
+    <g clip-path="url(#vialClip)">
+      <rect x="24" y="264" width="152" height="66" fill="#2E62B8" />
+      <rect x="24" y="204" width="152" height="60" fill="#E0A128" />
+      <rect x="24" y="144" width="152" height="60" fill="#E05A47" />
+    </g>
+    <!-- Glass highlight -->
+    <line x1="48" y1="146" x2="48" y2="292" stroke="#FFFFFF" stroke-width="8" stroke-linecap="round" opacity="0.55" />
+  </g>
+</svg>
